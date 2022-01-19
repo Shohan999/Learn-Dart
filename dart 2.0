@@ -7,4 +7,10 @@ void main() {
   print (number + numberone);
   print ("$name $lastname is $age");
   print ("$name ${lastname.toUpperCase()}");
+  
+  if(number !=100) {
+  print ("Not a Hundred!");
+}else {
+    print("Yess!");
+  }
 }
