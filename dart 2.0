@@ -1,0 +1,10 @@
+void main() {
+  String name = "Shohan";
+  String lastname = "Hasan";
+  int age = 22;
+  int number = 66;
+  int numberone = 33;
+  print (number + numberone);
+  print ("$name $lastname is $age");
+  print ("$name ${lastname.toUpperCase()}");
+}
