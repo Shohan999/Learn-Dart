@@ -4,6 +4,8 @@ void main() {
   int age = 22;
   int number = 66;
   int numberone = 33;
+  var result = number / numberone;
+  print (result);
   print (number + numberone);
   print ("$name $lastname is $age");
   print ("$name ${lastname.toUpperCase()}");
