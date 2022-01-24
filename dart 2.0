@@ -1,11 +1,14 @@
 void main() {
   String name = "Shohan";
   String lastname = "Hasan";
+  double pi = 3.14;
+  double gravity = 9.8;
   int age = 22;
   int number = 66;
   int numberone = 33;
   var result = number / numberone;
   print (result);
+  print ( pi <= gravity);
   print (number + numberone);
   print ("$name $lastname is $age");
   print ("$name ${lastname.toUpperCase()}");
