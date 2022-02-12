@@ -4,6 +4,20 @@ void main() {
   double pi = 3.14;
   double gravity = 9.8;
   int age = 22;
+  int n=1+1;  
+  String str1 = "The sum of 1 and 1 is ${n}"; 
+  print(str1); 
+  String str2 = "The sum of 2 and 2 is ${2+2}"; 
+  print(str2); 
+  bool test; 
+  test = 12 > 5; 
+  print(test); 
+     var str = 'abc'; 
+   if(str) { 
+      print('String is not empty'); 
+   } else { 
+      print('Empty String'); 
+   }
   int number = 66;
   int numberone = 33;
   var result = number / numberone;
@@ -12,7 +26,6 @@ void main() {
   print (number + numberone);
   print ("$name $lastname is $age");
   print ("$name ${lastname.toUpperCase()}");
-  
   if(number !=100) {
   print ("Not a Hundred!");
 }else {
