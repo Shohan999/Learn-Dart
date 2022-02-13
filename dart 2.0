@@ -9,15 +9,13 @@ void main() {
   print(str1); 
   String str2 = "The sum of 2 and 2 is ${2+2}"; 
   print(str2); 
+  var details = new Map(); 
+  details['Usrname'] = 'admin'; 
+  details['Password'] = 'admin@123'; 
+  print(details); 
   bool test; 
   test = 12 > 5; 
   print(test); 
-     var str = 'abc'; 
-   if(str) { 
-      print('String is not empty'); 
-   } else { 
-      print('Empty String'); 
-   }
   int number = 66;
   int numberone = 33;
   var result = number / numberone;
