@@ -1,4 +1,8 @@
 void main() {
+  "A string".runes.forEach((int rune) { 
+      var character=new String.fromCharCode(rune); 
+      print(character); 
+   }); 
   String name = "Shohan";
   String lastname = "Hasan";
   double pi = 3.14;
