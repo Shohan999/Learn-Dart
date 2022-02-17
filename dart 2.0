@@ -9,9 +9,9 @@ void main() {
   double gravity = 9.8;
   int age = 22;
   int n=1+1;  
-  String str1 = "The sum of 1 and 1 is ${n}"; 
+  String str1 = "The sum of 2 and 2 is ${n}"; 
   print(str1); 
-  String str2 = "The sum of 2 and 2 is ${2+2}"; 
+  String str2 = "The sum of 3 and 3 is ${2+2}"; 
   print(str2); 
   var details = new Map(); 
   details['Usrname'] = 'admin'; 
